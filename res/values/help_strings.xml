@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="main_welcome">Welcome to TTuner!</string>
+    <string name="main_explication">
+  	    TTuner produces tones of different pitches and timbres that you can tune 
+  	    to. What makes TTuner different from most other tuning devices (both 
+  	    hardware and software) is the way that a temperament is programmed into 
+  	    the system. To begin with, most tuners are limited to equal 
+  	    temperament, and can\'t tune other temperaments at all. Others have a 
+  	    few historical temperaments, but don\'t let you modify them in any way. 
+  	    A small number of tuners let you enter your own custom temperaments to 
+  	    use, but this is usually done by specifying the deviation, in cents, 
+  	    from equal temperament, which really has nothing to do with how these 
+  	    temperaments are really constructed or used. As well, they usually only 
+  	    let you specify in units of one cent - there\'s no way to make a note 
+  	    .2 cents higher, for example.
+  	    \n\nEnter TTuner! This program calculates temperaments in the same way you
+  	    would if you were tuning by ear. Starting with a reference tone (a
+  	    tuning fork, for example) intervals are specified as being pure, or
+  	    tempered by fractions of commas.\n</string>
+    <string name="main_functions_header">The Home Screen</string>
+    <string name="main_functions">There are eight buttons on the home screen:\n</string>
+	<string name="main_play">play/mute</string>    
+	<string name="main_play_info">Starts and stops the sound production.\n</string>    
+	<string name="main_pitch">Reference Pitch (e.g., A415)</string>    
+	<string name="main_pitch_info">Lets you specify the pitch reference tone. Currently, only
+	    a reference pitch of A is possible. Although the main screen shows no decimal points
+	    you can specify it to a much higher degree of accuracy. (This is true of the accuracy of
+	    the displayed frequency for the current note, also.)\n</string>    
+	<string name="main_temp">Current Temperament</string>    
+	<string name="main_temp_info">Shows the name of the currently-loaded Temperament. Press on this
+	    to go to a screen where you can change your selection, edit it, or otherwise manipulate your
+	    collection of Temperaments.\n</string>    
+	<string name="main_wave">Current Waveform</string>    
+	<string name="main_wave_info">Shows the name of the currently-loaded Waveform (this determines the
+	    timbre/colour of the tone). Press on this to go to a screen where you can change your 
+	    selection, edit it, or otherwise manipulate your collection of Waveforms.\n</string>    
+	<string name="main_note_nav">The 4 Note Navigation buttons</string>    
+	<string name="main_note_nav_info">+Note, -Note, +Octave, -Octave: let you change the note and octave of the 
+	    currently-loaded temperament that will be played. Although there are no limits to the calculable frequencies,
+	    the available hardware (both yours and your Android\'s) will limit the actual available frequencies. Too high, and you will hear mysterious tones in the wrong
+	    octaves. Too low, and the fundamental will be too quiet; you will only hear upper partials. Luckily, the
+	    usual musical range is quite playable on any Android device (unless you\'re a piccolo or double bass player.)
+	    
+	    \n\n(***By the way, if you ever choose to delete all the stored data for TTuner, for better or for worse, it will still keep the default temperaments and waveforms.***)</string>    
+	
+	<!-- **************TEMPERAMENTS*************************************** -->
+	
+	<string name="temp_ways">There are two ways to define a temperament in TTuner:\n</string>
+	<string name="temp_rel_summary">By specifing the deviation, in fractions of a comma, from a pure interval
+	    between notes of this temperament. This is the way temperaments have been defined and produced for centuries.\n</string>
+	<string name="temp_cent_summary">By specifying the deviation, in cents, from equal temperament for
+	    each of the twelve notes of the chromatic scale. This is how most other electronic tuners provide 
+	    programmable temperaments.\n</string>
+	<string name="temp_def_by_rel">Defining a temperament by Relationships</string>
+	<string name="temp_rel_info1">At the Edit Temperament [by Relationships] screen, you can set the name of the 
+	    temperament, and you can specify any number of Note Interval Relationships, provided each is one of these three useful intervals:</string>
+	<string name="temp_rel_info_intervals">Major Third\nMinor Third\nPerfect Fifth</string>
+	<string name="temp_rel_info2">\nYou can show a relationship by writing two note names separated by an equals sign. E.g.,</string>
+	<string name="temp_rel_info_ex1">A = E</string>
+	<string name="temp_rel_info3">You must use capital letters for note names, which range from A-G. For a flat, use the lower-case \'b\', and for a sharp, use the so-called octothorpe:</string>
+	<string name="temp_rel_info_ex2">Bb = F\nC# = F#\nEb = C</string>
+	<string name="temp_rel_info4">Those all designate pure intervals. The last is a Minor Third; the others are all Perfect Fifths, which leads us to this important rule:</string>
+	<string name="temp_rel_info4a">\nThe order of the notes does not matter.\n</string>
+	<string name="temp_rel_info4b">
+	    \nNow, after designating a pure interval, it\'s time to specify how, in this temperament, the interval between these notes deviates from pure, if it does. 
+	    Use either plus or minus</string>
+	<string name="temp_rel_info_plusminus">+ -</string>
+	<string name="temp_rel_info5">to show whether the actual interval is either greater than or less than pure. The amount of deviation is shown as a fraction of a comma. E.g.,</string>
+	<string name="temp_rel_info_ex3">1/6</string>
+	<string name="temp_rel_info6">You must use the slash (\'/\') to show the fraction. In terms of commas, you have two to choose from: Pythagorean (ditonic), or Syntonic (chromatic diesis). You can indicate Pythagorean with an upper-case \'P\' and Syntonic, likewise, with an upper-case \'S\'.</string>
+	<string name="temp_rel_info_ps">P S</string>
+	<string name="temp_rel_info7">\nPutting all this together, you can symbolize that</string>
+	<string name="temp_rel_info_ex4">The Perfect Fifth between C and G is diminished by a quarter of the Syntonic Comma</string>
+	<string name="temp_rel_info8">by writing either of these:</string>
+	<string name="temp_rel_info_ex5">C=G-1/4S\nG = C -25/100 S</string>
+	<string name="temp_rel_info9">but not with this otherwise-well-formed Relationship:</string>
+	<string name="temp_rel_info_ex6">C=G+42/14P</string>
+	<string name="temp_rel_info10">and certainly not with this malformed Relationship:</string>
+	<string name="temp_rel_info_ex7">a = f -1\\12X</string>
+	<string name="temp_rel_info11">
+	    \nPress \'Add\' after writing in the Relationship to save it. (At this point, TTuner will format it nicely with spaces.) You can select from the list and delete, but you currently cannot actually edit an entry.
+	    TTuner will tell you if something is malformed or incompatible in some way, although I\'m afraid it probably won\'t tell
+	    you how to fix it.</string>
+    <string name="temp_rel_info11a">The order of the Relationships does not matter.</string>
+		<string name="temp_rel_info11b">
+	    \nIf you find this notation confusing, take a look at the included default Temperaments to get a sense of the Relationship notation (you\'ll have to make copy of a default Temperament and then press \'Edit\'). 
+		For example, here\'s what the well-known Valotti temperament looks like:</string>
+	<string name="temp_rel_info_valotti">
+	    A = E -1/6P
+	    \nE = B -1/6P
+	    \nD = A -1/6P
+	    \nG = D -1/6P
+	    \nC = G -1/6P
+	    \nF = C -1/6P
+	    \nBb = F
+	    \nEb = Bb
+	    \nAb = Eb
+	    \nF# = B
+	    \nC# = F#</string>
+	<string name="temp_rel_info12">It consists of 6 fifths tempered by 1/6 of a Pythagorean comma (from F to B), 
+	    with 6 others (Bb to F#) tuned pure.
+	    \n\nAs you know, for convenience, you can also specify a temperament as a series of cent
+	    deviations from equal temperament, but of course it\'s not as good as specifying the intervals themselves!</string>
+    <string name="temp_rel_info_enharmonics">
+	    This flexible way of writing a temperament also means that there\'s no problem specifying enharmonic notes. 
+	    The standard default meantone instructions, for example, has \'B = D#\' and \'G = Eb\', so both those notes
+	    (D# and Eb) are generated.</string>
+		
+	<string name="temp_def_by_cent">\nDefining a temperament by Cents</string>
+	<string name="temp_cent_info1">Simply input the deviation from equal temperament (including decimal places, 
+	    if you\'d like) by selecting and entering for each of the twelve chromatic notes in the Edit Temperament
+	    [by Cents] screen:</string>
+	<string name="temp_cent_info_notes">A Bb B C C# D Eb E F F# G G#</string>
+	<string name="temp_cent_info2">Everything starts at a default of 0 cents deviation. Since we\'re using A as 
+	    the reference note (see help for the Home screen), A\'s deviation must always be set to 0. (TTuner won\'t 
+	    let you change it anyway.) Oh, and by the way, although it displays the deviations with \'+\' and \'-\', 
+	    you only need to specify when there\'s a \'-\'; the \'+\' is assumed for positive numbers. (This is in contrast with the 
+	    Relationship notation, where either the \'+\' or the \'-\' must ALWAYS 
+	    be included when there is a deviation.)</string>
+	
+	<string name="temp_notes">\nNotes on the included Default Temperaments</string>
+	<string name="temp_notes_info">This is just a little bit of info about some of the included temperaments.</string>
+	<string name="temp_notes_lb">\nLehman-Bach</string>
+	<string name="temp_notes_lb_info">This is a temperament that Bradley Lehman \'uncovered\' while examining Bach\'s
+	    doodles on his title page to the Well-Tempered Clavier. It was fresh and all the rage in 2005 when the
+	    original, command-line TTuner was created. You can read more about it at his website:</string>
+	<string name="temp_notes_larips">http://www.LaripS.com</string>
+	<string name="temp_notes_wsw">\nWoods So Wild</string>
+	<string name="temp_notes_wsw_info">
+	    I actually don\'t know much about this temperament! Maybe Jon-o (the creator of the original TTuner) will
+	    enlighten me some day. (That\'ll probably happen if I ever remember to ask him about it.) Most importantly 
+	    for you though, there is a discrepancy between the \'By Relationships\' version and the \'By Cents\'
+	    version. In the \'By Relationships\' version, the value for \'B\' is about one cent lower.</string>
+	<string name="temp_notes_young">\nYoung II</string>
+	<string name="temp_notes_young_info">
+	    This is quite similar to Valotti (sometimes even referred to as Young-Valotti); it is in fact the same thing,
+	    only the tempering is shifted over by one fifth (i.e., in Valotti, F-C is tempered, as is C-G, and so on six times;
+	    in Young, the tempering starts at C-G, and goes on with G-D for a total of six times). If you look at its definition 
+	    file, however, you will see that I\'ve included a final connection between B and Gb: B = Gb - 1/6P. TTuner treats this just
+	    as you would if you were tuning a harpsichord or something: it considers B=Gb to be a pure perfect fifth, and then it tempers
+	    it down a sixth of a comma. But you can remove that connection and the temperament will be still be complete. This shows
+	    that these temperaments do indeed work out! You can add and remove something like that at will, and the exact tempering
+	    from all the other relationships leaves a hole just the right size for it.</string>
+	<string name="temp_notes_just">\nJust Intonation</string>
+	<string name="temp_notes_just_info">
+	    Technically, Just Intonation is NOT a temperament. After all, nothing\'s being tempered! The intervals 
+	    from the base note to all other notes are pure \u2014 that is, the ratio between the the frequency of the base note and the frequency 
+	    of any of the other notes is a rational number. (Which already doesn\'t mean much for the sound of major and minor seconds, but goes without
+	    saying for the octaves and unisons). Neither of the Temperament defining methods available in TTuner are
+	    ideal for exploring Just Intonations \u2014 they are best expressed as a named list of ratios \u2014 so that\'s why
+	    I\'ve included only one example. It is based on A. Once I implement the ability to change the
+	    Reference Note (see help for Home screen), it will be interesting to have some based on C.</string>
+
+	
+	
+		<!-- ************WAVEFORMS***************************************** -->
+	
+	<string name="wave_intro">
+	    Another benefit this program has over most others is the ability to specify different sets
+	    of harmonics in the audio output. Instead of another tuner\'s nasty sound, you can combine different
+	    sine waves to make something that suits the instrument that you\'re tuning to. TTuner calls this end result
+	    a \'Waveform\', and each one has a different timbre or sound colour. There\'s no real
+	    limit to the number of different partials the sound can have, as long as you have the processing
+	    power to generate them!
+	    
+	    \n\nAs with the Temperaments, you cannot edit the defaults, but you can make a copy of any of them and edit
+	    that, or you can create a new one.
+	    </string>
+    <string name="wave_how">\nEntering Waveforms</string>
+	<string name="wave_info">
+	    The list of numbers on the Edit Waveform screen corresponds to the 
+	    Relative Weights of the Harmonics of the type of sound you are creating. Harmonic 1 is the fundamental.
+	    After entering its value, simply press the \'Next\' button alongside the number-input, or select another
+	    from the list. Although the list, by default, ends at the thirty-second Harmonic (which is more than enough for most
+	    situations) feel free to continue hitting \'Next\' to advance to higher and higher partials. For your
+	    convenience, the currently-set weights of the Waveform\'s harmonics are all listed in red below the name,
+	    ending with the highest non-zero weight.</string>   
+	<string name="wave_perf">\nA Note on Performance</string>    
+	<string name="wave_resources">
+	    Each harmonic with a non-zero weight corresponds to a unique sine wave whose data point must be calculated
+	    and combined with the others tens of thousands of times a second. Luckily, Android devices have fast processors,
+	    but with the amount of stuff going on in a phone, sometimes they have trouble keeping up! Then you hear clicks and breaks
+	    and pulses in the sound, and that certainly is NOT good for tuning! If you\'re experiencing trouble like that, you may
+	    have some process running in the background that is using up your machine\'s precious clock-cycles; can you turn it off? On
+	    the other hand, it might just be the case that your Waveform is a little too complex. Try clearing some
+	    of the less significant harmonics, and see if it works better. You\'ll know it is working right when you hear a clear,
+	    uninterrupted sound, just as you would expect. In the future I intend to include a settings menu that will provide 
+	    other solutions to this issue, as well. The original console-based TTuner doesn\'t have to deal with a phone, so it
+	    has much more processing power; if you want to experiment with more complex Waveforms, try downloading it to your computer. 
+	    You can find a link to it on the About help screen. Again, one day, perhaps I will rewrite the code so that 
+	    TTuner for Android can be more efficient.</string>    
+	<string name="wave_examples">\nThe Included Waveforms</string>    
+	<string name="wave_st">Splendid Tone</string>    
+	<string name="wave_st_info">This is a nice, simple tone that many find nice to tune to.</string>    
+	<string name="wave_saw">\nSawtooth</string>    
+	<string name="wave_saw_info">
+	    With (equal) non-zero weights for (the first) 26 harmonics, this Waveform requires a lot of processing power.
+	    If you want a Sawtooth wave but this one doesn\'t work, try making a copy and clearing the higher ones (e.g, perhaps 
+	    stop at the 20th harmonic, or even the 13th.)</string> 
+	<string name="wave_sin">\nSimple Sine</string>    
+	<string name="wave_sin_info">The simplest of Waveforms. Pure and sweet.</string>    
+	<string name="wave_sq">\nSquare</string>    
+	<string name="wave_sq_info">
+	    This is a pleasant square-based wave from the original TTuner. A neat \"hollow-sounding\" tone. For a more traditional
+	    square wave, try Strict Square</string>    
+	<string name="wave_ss">\nStrict Square</string>    
+	<string name="wave_ss_info">
+	    A standard Square Wave. Although the non-zero harmonic weights go as deep as Sawtooth (to the 25th Harmonic,
+	    since the 26th would be 0), since it consists of only every other one, it is not nearly as demanding on your machine. Try copying
+	    it and adding more depth for an increasingly buzzy sound!</string>    
+	  
+	<!-- *****************ABOUT************************************ -->
+	
+	<string name="about_port">
+	    This is an Android port of Jonathan Addleman\'s original console-based Temperament Tuner,
+	    or ttuner, which has had a simple-but-effective command-line interface since 2005 or so.</string>
+	<string name="about_visit">Visit the original ttuner website at RedOwl</string>
+	<string name="about_redowl_ttuner">http://jono.redowl.ca/ttuner</string>
+	<string name="about_authors">\nAuthors:</string>
+	<string name="about_jono">Jonathan Addleman (original concept)</string>
+	<string name="about_redowl_pull">Visit his website</string>
+	<string name="about_redowl">http://www.redowl.ca</string>
+	
+	<string name="about_graham">\nGraham St-Laurent (Android programming and design)</string>
+	<string name="about_email_pull">Send Graham an email at\ngstlaurent@gmail.com</string>
+	<string name="about_email">mailto:gstlaurent@gmail.com</string>
+	
+	<string name="about_history">History</string>
+	<string name="about_history_info">
+	    I used to use Jon-o\'s ttuner in my practicing and when I was preparing for gigs. I also liked just
+	    playing with the waveforms and making all sorts of different sounds, like with a simple synthesizer. And finally,
+	    I liked looking at his code and trying to figure out how he\'d made it. So when I decided I\'d like to make
+	    an Android app, the first thing that popped into mind was to make a version of ttuner for Android. And
+	    that\'s what you\'re holding!
+	    
+	    \n\nThe original ttuner was written in C and is simple but slick and powerful.
+	    (In fact, some of the text of these help files comes directly from Jon-o\'s original instructions.)
+	    This being my first solo Android app, though, it\'s written in Java and it can\'t always keep up with the more complex waveforms. But since those waveforms
+	    are only there for fun (for the sake of interest), that isn\'t a problem and I think you\'ll find that this
+	    version of TTuner works great too!
+	    
+	    \n\nBesides the entirely different user interfaces between this TTuner and the old ttuner, there are two main 
+	    things that the new (my) TTuner does differently. One is that it only displays the pitch of the current note.
+	    As a console app, the original ttuner displayed an arbitrary-length record of your past notes and pitches. I may
+	    integrate something similar to that functionality in the future, though, because I miss it. The other thing is that the old ttuner
+	    had this neat batch mode: with that, ttuner immediately would create a bunch of .wav files for all the notes in your temperament.
+	    Then you could upload them to your mp3 player and have portable temperament drones - yay! But since 
+	    an Android device already IS portable, that functionality has gone moot, so I didn\'t implement it.
+	    
+	    \n\nThank you for using TTuner!</string>
+	<string name="about_g">Graham</string>
+			
+			
+	
+	
+</resources>

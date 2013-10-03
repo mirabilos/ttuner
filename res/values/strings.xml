@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TTuner</string>
+    <string name="action_settings">Settings</string>
+    <string name="curr_temp">Temperament:</string>
+    <string name="curr_wave">Waveform:</string>
+    <string name="playing">Now playing:</string>
+    <string name="note_up">+Note</string>
+    <string name="note_down">-Note</string>
+    <string name="octave_up">+Octave</string>
+    <string name="octave_down">-Octave</string>
+    <string name="set_A">Set reference pitch for A</string>
+    <string name="ok">OK</string>
+    <string name="edit_listable">Edit</string>
+    <string name="new_listable">New</string>
+    <string name="copy_listable">Copy</string>
+    <string name="delete_listable">Delete</string>
+    <string name="title_activity_relationships_editor">Edit Temperament</string>
+    <string name="input_name">Name:</string>
+    <string name="name_hint">Give it a name</string>
+    <string name="button_new">Add</string>
+    <string name="button_edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="rels">Note Relationships:</string>
+    <string name="rel_hint">Xb = Y# +- 1/Z PS</string>
+    <string name="cancel">Cancel</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="toast_one_relationship">Temperaments must have at least one Note Relationship.</string>
+    <string name="title_activity_listable_selector">Select</string>
+    <string name="title_activity_waveform_editor">Edit Waveform</string>
+    <string name="harms">Relative Harmonic Weights At-A-Glance:</string>
+    <string name="weight_hint">0.0</string>
+    <string name="set_harm_heading">Set Harmonic:</string>
+    <string name="harmonic_label">Harmonic: </string>
+    <string name="weight_label">Weight: </string>
+    <string name="harm_hint">1</string>
+    <string name="set">Next</string>
+    <string name="harmonic_heading">Harmonic\nNumber</string>
+    <string name="weight_heading">Relative\nWeight</string>
+    <string name="set_heading">Set Relative Harmonic Weights</string>
+    <string name="a_equals">A = </string>
+    <string name="default_pitch">415</string>
+    <string name="herz">Hz</string>
+    <string name="reset">reset</string>
+    <string name="undo">undo</string>
+    <string name="clear">Clear</string>
+    <string name="title_activity_new_temperament">New Temperament</string>
+    <string name="new_temp">How would you like to define your new temperament?</string>
+    <string name="by_cents">By Cents</string>
+    <string name="by_relationships">By Relationships</string>
+    <string name="title_activity_cents_editor">Edit Temperament</string>
+    <string name="set_cents_heading">Set deviation from Equal Temperament in Cents:</string>
+    <string name="dev_hint">0.0</string>
+    <string name="cents">\u0020cents</string>
+    <string name="title_activity_help_main">TTuner Help</string>
+    <string name="title_section0">About</string>
+    <string name="title_section1">Home</string>
+    <string name="title_section2">Temperaments</string>
+    <string name="title_section3">Waveforms</string>
+    <string name="help">Help</string>
+    
+    <string name="keypad_back">\u003C\u003C</string>
+    
+    <string name="sharp">\u266F</string>
+    <string name="flat">\u266D</string>
+    
+        
+
+    
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="gold">#FE9D04</color>
+    <color name="blue">#FF33B5E5</color>
+    <color name="grey">#FF444444</color>
+    <color name="divider">@color/grey</color>
+    <color name="dk_grey">#FF222222</color>
+    <color name="lt_grey">#FF888888</color>
+    <color name="black">#FF000000</color>
+    
+</resources>

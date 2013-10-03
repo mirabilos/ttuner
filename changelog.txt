@@ -1,0 +1,14 @@
+2013:
+
+working version: 1.1.2
+
+July 11
+QuickTone:
+Sine array is now explicitly a ring array, designed to always be size power of two, using a bit mask instead of modulo
+(In fact, the modulo seems to be optimized into the bit mask when I use a power of two, so it is mainly to be explicit)
+
+Quicktone:
+Increased size of sine array, arbitrarily, for no good reason. (Heard very slow beating while practicing; maybe that'll help.)
+
+version 1.1.3
+Now it has com.thefourthspecies in the project manifest instead of graham

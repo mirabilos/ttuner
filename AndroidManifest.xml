@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.thefourthspecies.ttuner"
+    android:versionCode="7"
+    android:versionName="1.1.3">
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ttuner_icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.thefourthspecies.ttuner.TTuner"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+              
+                
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.thefourthspecies.ttuner.RelationshipsEditor"
+            android:label="@string/title_activity_relationships_editor"
+            android:parentActivityName="com.thefourthspecies.ttuner.ListableSelector" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.thefourthspecies.ttuner.ListableSelector" />
+        </activity>
+        <activity
+            android:name="com.thefourthspecies.ttuner.ListableSelector"
+            android:label="@string/title_activity_listable_selector"
+            android:parentActivityName="com.thefourthspecies.ttuner.TTuner" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.thefourthspecies.ttuner.TTuner" />
+        </activity>
+        <activity
+            android:name="com.thefourthspecies.ttuner.WaveformEditor"
+            android:label="@string/title_activity_waveform_editor"
+            android:parentActivityName="com.thefourthspecies.ttuner.ListableSelector" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.thefourthspecies.ttuner.ListableSelector" />
+        </activity>
+        <activity
+            android:name="com.thefourthspecies.ttuner.NewTemperament"
+            android:label="@string/title_activity_new_temperament"
+            android:parentActivityName="com.thefourthspecies.ttuner.ListableSelector" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.thefourthspecies.ttuner.ListableSelector" />
+        </activity>
+        <activity
+            android:name="com.thefourthspecies.ttuner.CentsEditor"
+            android:label="@string/title_activity_cents_editor"
+            android:parentActivityName="com.thefourthspecies.ttuner.ListableSelector" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.thefourthspecies.ttuner.ListableSelector" />
+        </activity>
+        <activity
+            android:name="com.thefourthspecies.ttuner.HelpMain"
+            android:label="@string/title_activity_help_main"
+            android:parentActivityName="com.thefourthspecies.ttuner.TTuner" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.thefourthspecies.ttuner.TTuner" />
+        </activity>
+    </application>
+
+</manifest>

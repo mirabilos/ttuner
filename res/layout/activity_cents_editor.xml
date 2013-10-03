@@ -1,0 +1,102 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/input_name"
+        android:textColor="@color/gold"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/edit_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/name_hint"
+ 		android:paddingLeft="16dip"
+ 		android:paddingRight="12dip"
+        android:inputType="textNoSuggestions"
+        android:singleLine="true" /> 
+
+     <View
+        android:layout_height="1px"
+        android:layout_width="match_parent"
+        android:background="@color/divider" />
+    
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/set_cents_heading"
+        android:textColor="@color/gold"
+        android:textSize="12sp" />
+     
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+    
+        <TextView
+            android:id="@+id/current_note"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/gold"
+            android:textIsSelectable="true"
+            android:textSize="22sp"
+            android:layout_weight="0" />
+
+        <EditText
+            android:id="@+id/deviation"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/dev_hint"
+            android:inputType="numberDecimal|numberSigned"
+            android:textSize="22sp"
+            android:layout_weight="1" />
+         
+        <Button
+            android:id="@+id/next_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="nextNote"
+            android:text="@string/set"
+            android:textStyle="italic"
+            android:layout_weight="0"
+            style="?android:attr/buttonBarButtonStyle" />
+	</LinearLayout>
+	
+	<View
+        android:layout_height="1px"
+        android:layout_width="match_parent"
+        android:background="@color/divider" />
+    
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+	    
+		<ListView
+	        android:id="@android:id/list"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1" >
+	    </ListView>
+	    
+	    <Button
+		    android:id="@+id/clear_button"
+		    android:layout_weight="0"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/clear"
+	        android:onClick="clearDev" 
+	        android:textStyle="italic"
+	        style="?android:attr/buttonBarButtonStyle" />
+		    
+			
+	</LinearLayout>
+	
+
+</LinearLayout>
