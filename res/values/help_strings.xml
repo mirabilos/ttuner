@@ -121,10 +121,11 @@
 	
 	<string name="temp_notes">\nNotes on the included Default Temperaments</string>
 	<string name="temp_notes_info">This is just a little bit of info about some of the included temperaments.</string>
-	<string name="temp_notes_lb">\nLehman-Bach</string>
+	<string name="temp_notes_lb">\nBach/Lehman</string>
 	<string name="temp_notes_lb_info">This is a temperament that Bradley Lehman \'uncovered\' while examining Bach\'s
 	    doodles on his title page to the Well-Tempered Clavier. It was fresh and all the rage in 2005 when the
-	    original, command-line TTuner was created. You can read more about it at his website:</string>
+	    original, command-line TTuner was created. The \'Chorale\' flavour is intended for modern issues of pieces
+	    which have been transposed from Chorton to Cammerton. You can read more about it at his website:</string>
 	<string name="temp_notes_larips">http://www.LaripS.com</string>
 	<string name="temp_notes_wsw">\nWoods So Wild</string>
 	<string name="temp_notes_wsw_info">
