@@ -228,7 +228,7 @@ package com.thefourthspecies.ttuner.model.tests;
 //	public void testCents() throws TunerException {
 //		String VALDETS = "A+0.0, Bb+5.9, B-3.9, C+5.9, C#+0.0, D+2.0, " +
 //				"Eb+3.9, E-2.0, F+7.8, F#-2.0, G+3.9, G#+2.0";
-//		t = new RelationshipsTemperament("Valotti", VALDETS);
+//		t = new RelationshipsTemperament("Vallotti", VALDETS);
 //		assertEquals(VALDETS, t.getDetails());
 //		
 ////		assertTrue(t instanceof CentsTemperament); Certainly not, at this point....

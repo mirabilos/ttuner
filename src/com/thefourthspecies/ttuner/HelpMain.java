@@ -332,7 +332,7 @@ public class HelpMain extends FragmentActivity implements ActionBar.TabListener 
 			addText(R.string.temp_rel_info11);
 			addText(R.string.temp_rel_info11a, NORMAL, true, ITALIC);	
 			addText(R.string.temp_rel_info11b);
-			addText(R.string.temp_rel_info_valotti, NORMAL, true, BOLD);
+			addText(R.string.temp_rel_info_vallotti, NORMAL, true, BOLD);
 			addText(R.string.temp_rel_info12);
 			addText(R.string.temp_rel_info_enharmonics, NORMAL, false, ITALIC);
 			

@@ -85,8 +85,8 @@
     <string name="temp_rel_info11a">The order of the Relationships does not matter.</string>
 		<string name="temp_rel_info11b">
 	    \nIf you find this notation confusing, take a look at the included default Temperaments to get a sense of the Relationship notation (you\'ll have to make copy of a default Temperament and then press \'Edit\'). 
-		For example, here\'s what the well-known Valotti temperament looks like:</string>
-	<string name="temp_rel_info_valotti">
+		For example, here\'s what the well-known Vallotti temperament looks like:</string>
+	<string name="temp_rel_info_vallotti">
 	    A = E -1/6P
 	    \nE = B -1/6P
 	    \nD = A -1/6P
@@ -134,8 +134,8 @@
 	    version. In the \'By Relationships\' version, the value for \'B\' is about one cent lower.</string>
 	<string name="temp_notes_young">\nYoung II</string>
 	<string name="temp_notes_young_info">
-	    This is quite similar to Valotti (sometimes even referred to as Young-Valotti); it is in fact the same thing,
-	    only the tempering is shifted over by one fifth (i.e., in Valotti, F-C is tempered, as is C-G, and so on six times;
+	    This is quite similar to Vallotti (sometimes even referred to as Young-Vallotti); it is in fact the same thing,
+	    only the tempering is shifted over by one fifth (i.e., in Vallotti, F-C is tempered, as is C-G, and so on six times;
 	    in Young, the tempering starts at C-G, and goes on with G-D for a total of six times). If you look at its definition 
 	    file, however, you will see that I\'ve included a final connection between B and Gb: B = Gb - 1/6P. TTuner treats this just
 	    as you would if you were tuning a harpsichord or something: it considers B=Gb to be a pure perfect fifth, and then it tempers

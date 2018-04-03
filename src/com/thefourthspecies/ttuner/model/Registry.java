@@ -74,10 +74,10 @@ public class Registry {
 				"C = G-1/6P, C# = G#, D = A-1/6P, Eb = Bb-1/12P, E = B, F = C, F# = C#-1/12P, " +
 				"G = D-1/6P, Ab = Eb-1/12P, A = E-1/12P, B = F#-1/12P, Bb = F-1/12P");
 
-		addDefaultTemperament("Valotti",
+		addDefaultTemperament("Vallotti",
 				"A = E-1/6P, E = B-1/6P, D = A-1/6P, G = D-1/6P, C = G-1/6P, F = C-1/6P, " +
 				"Bb = F, Eb = Bb, Ab = Eb, F# = B, C# = F#");
-		addDefaultTemperament("Valotti (by cents)", 
+		addDefaultTemperament("Vallotti (by cents)", 
 				"A+0.0, Bb+5.9, B-3.9, C+5.9, C#+0.0, D+2.0, " +
 				"Eb+3.9, E-2.0, F+7.8, F#-2.0, G+3.9, G#+2.0");
 		
