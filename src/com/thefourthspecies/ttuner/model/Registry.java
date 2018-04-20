@@ -52,12 +52,12 @@ public class Registry {
 		addDefaultTemperament("Bach/Lehman 1722",
 				"C = F-1/6P, G = C-1/6P, D = G-1/6P, A = D-1/6P, " +
 				"E = A-1/6P, B = E, F# = B, C# = F#, G# = C#-1/12P, " +
-				"D# = G#-1/12P, A# = D#-1/12P, F = Bb+1/12P");
+				"D# = G#-1/12P, A# = D#-1/12P");
 
 		addDefaultTemperament("Bach/Lehman Chorale",
 				"D = G-1/6P, A = D-1/6P, E = A-1/6P, B = E-1/6P, " +
 				"F# = B-1/6P, C# = F#, G# = C#, D# = G#, Bb = Eb-1/12P, " +
-				"F = Bb-1/12P, C = F-1/12P, G = C+1/12P");
+				"F = Bb-1/12P, C = F-1/12P");
 		
 		addDefaultTemperament("Meantone, 1/4 Comma",
 				"A = F, Bb = D, B = G, B= E-1/4S, C = E, C# = A, C#= F#-1/4S, D = F#, " +
